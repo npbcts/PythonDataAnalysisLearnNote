@@ -1,0 +1,20 @@
+,Format Type,Data Description,Reader,Writer
+0,text,CSV,read_csv,to_csv
+1,text,Fixed-Width Text File,read_fwf,
+2,text,JSON,read_json,to_json
+3,text,HTML,read_html,to_html
+4,text,LaTeX,,Styler.to_latex
+5,text,XML,read_xml,to_xml
+6,text,Local clipboard,read_clipboard,to_clipboard
+7,binary,MS Excel,read_excel,to_excel
+8,binary,OpenDocument,read_excel,
+9,binary,HDF5 Format,read_hdf,to_hdf
+10,binary,Feather Format,read_feather,to_feather
+11,binary,Parquet Format,read_parquet,to_parquet
+12,binary,ORC Format,read_orc,
+13,binary,Stata,read_stata,to_stata
+14,binary,SAS,read_sas,
+15,binary,SPSS,read_spss,
+16,binary,Python Pickle Format,read_pickle,to_pickle
+17,SQL,SQL,read_sql,to_sql
+18,SQL,Google BigQuery,read_gbq,to_gbq
